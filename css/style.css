@@ -226,7 +226,7 @@ img {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
-  margin-bottom: 72px;
+  margin-bottom: 32px;
 }
 .team-subtitles {
   font-weight: 500;
@@ -259,9 +259,7 @@ img {
 .svg-team-list {
   display: flex;
   gap: 24px;
-  flex-direction: center;
-  padding-top: 8px;
-  padding-bottom: 32px;
+  justify-content: center;
 }
 .icon-link {
   display: flex;
@@ -271,16 +269,21 @@ img {
   height: 100%;
   background-color: #4d5ae5;
   border-radius: 50%;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .svg-team-item {
   width: 40px;
   height: 40px;
 }
-.icon-link:hover {
-  background-color: #31d0aa;
+.icon-link:hover,
+.icon-link:focus {
+  background-color: #404bbf;
 }
 .icon-team-svg {
-  fill: #fff;
+  fill: #f4f4fd;
+}
+.team-li-container {
+  padding: 32px 0;
 }
 /* -------PORTFOLIO------ */
 .portfolio-title {
