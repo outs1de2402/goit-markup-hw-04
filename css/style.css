@@ -83,7 +83,7 @@ img {
   background-color: #404bbf;
   position: absolute;
   left: 0;
-  bottom: 1px;
+  bottom: -1px;
 }
 .address-link {
   font-weight: 400;
@@ -118,6 +118,7 @@ img {
 /* -----------------MAIN----------- */
 .solution {
   background-color: #2e2f42;
+  background-position: center;
 }
 .solution-title {
   font-weight: 700;
@@ -153,7 +154,19 @@ img {
 }
 .solution {
   padding: 188px 0;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office1.jpg);
+  background-size: cover;
+  max-width: 1440px;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  margin: 0 auto;
 }
+
 /* ----------ADVANTAGES list----------- */
 .advantages-subtitles {
   font-weight: 500;
@@ -179,6 +192,17 @@ img {
 }
 .advantages-item {
   width: calc((100% - 72px) / 4);
+}
+.adventages-icons-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  width: 264px;
+  height: 112px;
+  background-color: #f4f4fd;
+  margin-bottom: 8px;
 }
 /* ----------------- */
 /*------------------------ OUR TEAM-------------------- */
