@@ -440,7 +440,7 @@ img {
   fill: #f4f4fd;
 }
 .footer-link-svg:hover,
-.footer-link-svg:hover {
+.footer-link-svg:focus {
   background-color: #31d0aa;
 }
 .footer-container {
