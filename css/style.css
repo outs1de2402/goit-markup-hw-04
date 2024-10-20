@@ -410,11 +410,12 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #fff;
+  color: #ffffff;
   margin-bottom: 16px;
 }
-.footer-container {
+.container-footer {
   display: flex;
+  align-items: baseline;
 }
 .footer-list {
   display: flex;
@@ -442,6 +443,6 @@ img {
 .footer-link-svg:hover {
   background-color: #31d0aa;
 }
-.logo-div {
+.footer-container {
   margin-right: 120px;
 }
